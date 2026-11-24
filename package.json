@@ -1,0 +1,22 @@
+{
+  "name": "novamarket-ecommerce-platform",
+  "version": "1.0.0",
+  "description": "Production-Style Full-Stack E-Commerce Platform with React, Express, and PostgreSQL",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "db:init": "npm --prefix backend run db:init",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "express",
+    "postgresql",
+    "jwt",
+    "bank-transfer"
+  ],
+  "author": "NovaMarket Engineering Team",
+  "license": "ISC"
+}
